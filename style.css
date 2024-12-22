@@ -1,0 +1,29 @@
+p{
+    color: blue;
+    border: 60px
+}
+h1{
+   background-color: whitesmoke;
+    font-size: 30px;
+    border-radius: 90px;
+    width: 40px;
+    height: 30px;
+    color: brown;
+
+}
+img{
+    background-color: aliceblue;
+    border: 50px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img::after{
+    flex-wrap: wrap;
+    border-bottom: 20px;
+     background-color: lightblue;
+     margin: 100px;
+     font-style: italic;
+     color: #000;
+     float: left;
+     border-radius: 100px;
+}
